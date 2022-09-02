@@ -1,0 +1,6 @@
+#! /usr/bin/bash
+cat << info
+this file demonstrates adding and appending as well heredoc delimiter
+info
+cat > file.txt
+#you can add another angle bracket to append to the file
